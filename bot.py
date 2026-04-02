@@ -1,7 +1,7 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
 from telegram.ext import Application, CommandHandler
 
-TOKEN = "8649850692:AAFQriunJBJucTREv-mjESa3stXVfUb0wnw"
+TOKEN = "8649850692:AAEWZbjNKQ71Uq79bBKah4VXmlkzQy_4tM0"
 WEB_APP_URL = "https://t.me/dogemining_app_bot/dogemine_pro"
 
 async def start(update, context):
@@ -11,11 +11,8 @@ async def start(update, context):
         reply_markup=InlineKeyboardMarkup(keyboard)
     )
 
-def main():
+if __name__ == "__main__":
     app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     print("🤖 Bot is running...")
     app.run_polling()
-
-if __name__ == "__main__":
-    main()
