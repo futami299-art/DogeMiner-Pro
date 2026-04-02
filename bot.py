@@ -2,7 +2,7 @@ import asyncio
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
 from telegram.ext import Application, CommandHandler
 
-TOKEN = "8649850692:AAFQriunJBJucTREv-mjESa3stXVfUb0wnw"
+TOKEN = "8649850692:AAEWZbjNKQ71Uq79bBKah4VXmlkzQy_4tM0"
 WEB_APP_URL = "https://t.me/dogemining_app_bot/dogemine_pro"
 
 async def start(update, context):
