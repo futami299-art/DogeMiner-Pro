@@ -2,7 +2,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
 from telegram.ext import Application, CommandHandler
 
 TOKEN = "8649850692:AAEWZbjNKQ71Uq79bBKah4VXmlkzQy_4tM0"
-WEB_APP_URL = "https://playful-sprite-93648b.netlify.app"  # ✅ SAHI URL
+WEB_APP_URL = "https://inquisitive-starship-137975.netlify.app/"  # ✅ SAHI URL
 
 async def start(update, context):
     keyboard = [[InlineKeyboardButton("🚀 OPEN APP", web_app=WebAppInfo(url=WEB_APP_URL))]]
